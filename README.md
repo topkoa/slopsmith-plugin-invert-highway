@@ -6,7 +6,9 @@ A plugin for [Slopsmith](https://github.com/byrongamatos/slopsmith) that inverts
 ## Features
 
 - **Invert chord note order** — flips the vertical layout of chord notes on the highway
+- **Player controls button** — toggle inversion directly from the player controls during playback
 - **Settings toggle** — enable/disable from the Settings page
+- **Synced state** — player button and settings checkbox stay in sync
 - **Persistent** — your preference is saved and remembered across sessions
 
 
@@ -20,9 +22,10 @@ docker compose restart
 
 ## How It Works
 
-1. Open **Settings** and toggle **Invert Highway** on
+1. Open **Settings** and toggle **Invert Highway** on — or click the **Invert** button in the player controls during playback
 2. Chord notes on the highway will now stack in reverse string order
-3. The setting persists in your browser's localStorage
+3. The player button and settings checkbox stay in sync
+4. The setting persists in your browser's localStorage
 
 ## Requirements
 
